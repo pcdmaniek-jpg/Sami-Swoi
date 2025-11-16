@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #283048, #859398);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+.container {
+  background: rgba(0,0,0,0.6);
+  border-radius: 15px;
+  max-width: 600px;
+  padding: 30px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.8);
+  text-align: center;
+}
+h1 {
+  margin-bottom: 10px;
+  font-size: 3rem;
+  letter-spacing: 2px;
+}
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #6a0fff;
+  margin-bottom: 20px;
+}
+p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+.btn, .btn-facebook {
+  display: inline-block;
+  background-color: #6a0fff;
+  color: #fff;
+  padding: 12px 25px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  margin: 5px 0;
+}
+.btn:hover, .btn-facebook:hover {
+  background-color: #8a3fff;
+}
+.social-icons {
+  margin-top: 20px;
+}
+.social-icons a {
+  color: white;
+  font-size: 2rem;
+  margin: 0 15px;
+  transition: 0.3s;
+}
+.social-icons a:hover {
+  color: #8a3fff;
+}
+.contact-info {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+.contact-info a {
+  color: #fff;
+  font-weight: bold;
+  text-decoration: none;
+}
+.contact-info a:hover {
+  text-decoration: underline;
+}
